@@ -17,6 +17,4 @@ public class GroupService implements IGroupService{
         Group group = groupRepository.save(new Group(groupRequestDto));
         return group;
     }
-
-
 }
