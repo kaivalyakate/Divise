@@ -5,6 +5,8 @@ import com.divise.divise.Entity.Request.GroupRequestDto;
 import com.divise.divise.Repository.IGroupRepository;
 import org.springframework.stereotype.Component;
 
+import java.lang.reflect.GenericArrayType;
+
 @Component
 public class GroupService implements IGroupService{
 
@@ -12,6 +14,9 @@ public class GroupService implements IGroupService{
 
     @Override
     public Group create(GroupRequestDto groupRequestDto) {
-        return null;
+        Group group = groupRepository.save(new Group(groupRequestDto));
+        return group;
     }
+
+
 }
