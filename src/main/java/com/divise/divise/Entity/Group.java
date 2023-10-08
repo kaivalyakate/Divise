@@ -14,5 +14,5 @@ public class Group {
     public String groupId;
     public List<User> users;
     public List<Expense> expenses;
-
+    public double balance;
 }
