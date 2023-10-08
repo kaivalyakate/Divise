@@ -15,4 +15,5 @@ public class Group {
     public List<User> users;
     public List<Expense> expenses;
     public double balance;
+
 }
