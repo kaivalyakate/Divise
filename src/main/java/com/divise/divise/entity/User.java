@@ -1,6 +1,6 @@
-package com.divise.divise.Entity;
+package com.divise.divise.entity;
 
-import com.divise.divise.Entity.Request.UserRequestDto;
+import com.divise.divise.entity.request.UserRequestDto;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

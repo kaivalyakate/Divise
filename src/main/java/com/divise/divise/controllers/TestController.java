@@ -1,4 +1,4 @@
-package com.divise.divise.Controllers;
+package com.divise.divise.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

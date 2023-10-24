@@ -1,4 +1,4 @@
-package com.divise.divise.Entity.Request;
+package com.divise.divise.entity.request;
 
 import lombok.Data;
 
